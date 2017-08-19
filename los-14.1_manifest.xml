@@ -10,27 +10,32 @@
            fetch="https://github.com"
            revision="cm-14.1" />
 
+
+  <remote  name="Galaxy"
+           fetch="https://github.com/GalaxyGrandPrime"
+           revision="7.x" />
+
   
   <!-- Qcom Common -->
   <!-- project path="device/qcom/common" name="LineageOS/android_device_qcom_common"/ -->
 
   <!-- A3 Device Trees -->
-  <project path="device/samsung/a3lte" name="Galaxy-MSM8916/android_device_samsung_a3lte" groups="device" remote="Galaxy-MSM8916"/>
-  <project path="device/samsung/a3ulte" name="Galaxy-MSM8916/android_device_samsung_a3ulte" groups="device" remote="Galaxy-MSM8916"/>
-  <project path="device/samsung/a33g" name="Galaxy-MSM8916/android_device_samsung_a33g" groups="device" remote="Galaxy-MSM8916"/>
-  <project path="device/samsung/a3-common" name="Galaxy-MSM8916/android_device_samsung_a3-common" groups="device" remote="Galaxy-MSM8916"/>
+  <project path="device/samsung/a3lte" name="android_device_samsung_a3lte" groups="device" remote="Galaxy" />
+  <project path="device/samsung/a3ulte" name="android_device_samsung_a3ulte" groups="device" remote="Galaxy" />
+  <project path="device/samsung/a33g" name="android_device_samsung_a33g" groups="device" remote="Galaxy" />
+  <project path="device/samsung/a3-common" name="android_device_samsung_a3-common" groups="device" remote="Galaxy" />
   
   <!-- Grand Prime Fortuna Device Trees -->
-  <project path="device/samsung/fortuna3g" name="Galaxy-MSM8916/android_device_samsung_fortuna3g" groups="device" remote="Galaxy-MSM8916"/>
+  <project path="device/samsung/fortuna3g" name="android_device_samsung_fortuna3g-1" groups="device" remote="Galaxy"/>
   <project path="device/samsung/fortunalteub" name="Galaxy-MSM8916/android_device_samsung_fortunalteub" groups="device" remote="Galaxy-MSM8916"/>
-  <project path="device/samsung/fortunave3g" name="Galaxy-MSM8916/android_device_samsung_fortunave3g" groups="device" remote="Galaxy-MSM8916"/>
+  <project path="device/samsung/fortunave3g" name="android_device_samsung_fortunave3g-1" groups="device" remote="Galaxy"/>
 
   <!-- Grand Prime G530FZ-MU-P-T-T1-W Device Trees -->
-  <project path="device/samsung/gprimelte" name="Galaxy-MSM8916/android_device_samsung_gprimelte" groups="device" remote="Galaxy-MSM8916"/>
-  <project path="device/samsung/gprimelte-common" name="Galaxy-MSM8916/android_device_samsung_gprimelte-common" groups="device" remote="Galaxy-MSM8916"/>
+  <project path="device/samsung/gprimelte" name="android_device_samsung_gprimelte" groups="device" remote="Galaxy"/>
+  <project path="device/samsung/gprimelte-common" name="android_device_samsung_gprimelte-common" groups="device" remote="Galaxy"/>
   <project path="device/samsung/gprimeltespr" name="Galaxy-MSM8916/android_device_samsung_gprimeltespr" groups="device" remote="Galaxy-MSM8916"/>
   <project path="device/samsung/gprimeltetfnvzw" name="Galaxy-MSM8916/android_device_samsung_gprimeltetfnvzw" groups="device" remote="Galaxy-MSM8916"/>
-  <project path="device/samsung/gprimeltexx" name="Galaxy-MSM8916/android_device_samsung_gprimeltexx" groups="device" remote="Galaxy-MSM8916"/>
+  <project path="device/samsung/gprimeltexx" name="android_device_samsung_gprimeltexx" groups="device" remote="Galaxy"/>
   <project path="device/samsung/gprimeltezt" name="Galaxy-MSM8916/android_device_samsung_gprimeltezt" groups="device" remote="Galaxy-MSM8916"/>
 
   
@@ -53,7 +58,7 @@
 
  <!-- Samsung MSM8916 Common Repos -->
   <project path="device/samsung/msm8916-common" name="Galaxy-MSM8916/android_device_samsung_msm8916-common" groups="device" remote="Galaxy-MSM8916"/>
-  <project path="device/samsung/qcom-common" name="GalaxyGrandPrime/android_device_samsung_qcom-common" groups="device" revision="7.x" remote="Github" />
+  <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" groups="device" remote="Galaxy" />
 
  <!-- Dependencies -->
   <!-- project path="external/busybox" name="LineageOS/android_external_busybox" / -->
@@ -65,7 +70,6 @@
  <!-- Samsung Hardware Repo -->
   <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="Github" />
 
-  
  <!-- Common Samsung MSM8916 Kernel -->
   <project path="kernel/samsung/msm8916" name="Galaxy-MSM8916/android_kernel_samsung_msm8916" remote="Galaxy-MSM8916"/>
 

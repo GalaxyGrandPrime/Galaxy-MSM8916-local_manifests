@@ -5,8 +5,10 @@ _*A very simple way to get started with syncing repos for Galaxy J5, Galaxy Gran
 
 
 
-To Clone The Manifest. Enter Your Source Directory And Execute The Command.
+Cloning?
 -------------
+
+To Clone The Manifest. Enter Your Source Directory And Execute The Command.
 
 ```bash
   git clone https://github.com/GalaxyGrandPrime/Galaxy-MSM8916-local_manifests -b cm-14.1 .repo/local_manifests
@@ -14,8 +16,10 @@ To Clone The Manifest. Enter Your Source Directory And Execute The Command.
 
 
 
-Now To Start The Sync.
+Syncing.
 -------------
+
+To Start The Sync.
 
 ```bash
   repo sync -c --force-broken --force-sync --no-clone-bundle --no-tags -j$( nproc --all )

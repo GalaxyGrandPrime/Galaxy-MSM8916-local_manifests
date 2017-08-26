@@ -11,7 +11,7 @@ Cloning?
 To Clone The Manifest. Enter Your Source Directory And Execute The Command.
 
 ```bash
-  git clone https://github.com/GalaxyGrandPrime/Galaxy-MSM8916-local_manifests -b cm-14.1 .repo/local_manifests
+  git clone https://github.com/GalaxyGrandPrime/Galaxy-MSM8916-local_manifests -b 7.x .repo/local_manifests
 ```
 
 

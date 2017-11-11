@@ -41,9 +41,7 @@
   <project path="device/qcom/common" name="LineageOS/android_device_qcom_common"/>
 
  <!-- TWRP -->
- <!--
  <project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" remote="github" revision="android-8.0"/>
-  -->
 
   <!-- A3 Device Trees -->
   <project path="device/samsung/a3lte" name="Galaxy-MSM8916/android_device_samsung_a3lte" groups="device" remote="Galaxy-MSM8916"/>
@@ -89,12 +87,8 @@
   <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" groups="device" /> 
 
  <!-- Dependencies -->
- <!--
-  <project path="external/busybox" name="LineageOS/android_external_busybox" />
+  <!-- <project path="external/busybox" name="LineageOS/android_external_busybox" />  -->
   <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" />
-  -->
-
-  <project path="external/stlport" name="LineageOS/android_external_stlport"/>
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings"/>
   
   
@@ -109,4 +103,5 @@
 
  <!-- Vendor Trees For All Device Trees -->
   <project path="vendor/samsung" name="Galaxy-MSM8916/proprietary_vendor_samsung" groups="device" remote="Galaxy-MSM8916"/>
+
 </manifest>
